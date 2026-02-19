@@ -44,7 +44,7 @@ body {
 
 .hero-subtitle {
   font-size: 1.05rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: #465268;
 }
 
@@ -99,6 +99,11 @@ body {
   height: 100%;
   object-fit: scale-down;
   display: block;
+}
+
+.hero-trust {
+  font-size: 0.95rem;
+  color: #4b5a75;
 }
 
 .section {
@@ -208,6 +213,10 @@ body {
 
   .section {
     padding: 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 2rem;
   }
 }
 

@@ -2,32 +2,36 @@
 
 const steps = [
   {
-    title: "Entendemos la operación",
-    text: "Nos involucramos con el equipo para comprender el flujo real del trabajo.",
+    title: "Diagnóstico operativo",
+    text: "Mapeo de procesos administrativos e información actual.",
   },
   {
-    title: "Diagnosticamos y detectamos áreas de oportunidad",
-    text: "Identificamos mejoras posibles sin interrumpir lo que ya funciona.",
+    title: "Diseño de estructura",
+    text: "Definición de datos, reglas, flujos y responsables.",
   },
   {
-    title: "Diseñamos e implementamos soluciones proporcionales",
-    text: "Desde mejoras en Excel y automatización de tareas, hasta sistemas internos.",
+    title: "Implementación",
+    text: "Herramientas proporcionales al negocio (de lo simple a lo robusto).",
+  },
+  {
+    title: "Adopción",
+    text: "Capacitación, ajustes y acompañamiento para uso real.",
   },
 ];
 
 const HowWeWork = () => {
   return (
-    <section className="section section-alt" id="como-trabajamos">
+    <section className="section" id="como-trabajo">
       <Container>
         <div className="row mb-4">
           <div className="col-lg-6">
-            <p className="eyebrow">Cómo trabajamos</p>
-            <h2 className="section-title">Proceso claro y gradual</h2>
+            <p className="eyebrow">Cómo trabajo</p>
+            <h2 className="section-title">Implementación por etapas</h2>
           </div>
         </div>
         <div className="row g-4">
           {steps.map((step, index) => (
-            <div className="col-md-4" key={step.title}>
+            <div className="col-md-6 col-lg-3" key={step.title}>
               <div className="process-card">
                 <div className="process-number">0{index + 1}</div>
                 <h3 className="process-title">{step.title}</h3>
