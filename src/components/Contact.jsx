@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="row align-items-start g-4">
           <div className="col-lg-8">
             <p className="eyebrow">Contacto</p>
-            <h2 className="section-title">Si quieres, lo revisamos en 15 a 20 minutos</h2>
+            <h2 className="section-title">Si algo de esto resuena contigo, contáctame.</h2>
             <p className="section-text">
               Una conversación breve para entender tu operación administrativa y ver si hay oportunidades de mejora.
             </p>
@@ -35,9 +35,6 @@ const Contact = () => {
             <div className="contact-info contact-info-compact mt-3">
               <p className="mb-1">
                 Correo: <a href={`mailto:${email}`}>{email}</a>
-              </p>
-              <p className="mb-1">
-                WhatsApp: <a href={whatsappLink}>+52 644 149 1373</a>
               </p>
               <p className="mb-0">
                 LinkedIn: <a href="https://www.linkedin.com/in/jrobertorodriguezg/">linkedin.com/in/jrobertorodriguezg</a>
