@@ -12,7 +12,7 @@ const HeaderHero = () => {
               <img className="logo-image" src={logo} alt="2R Develops" />
             </div>
             <h1 className="hero-title">
-              Consultoria en diseño y desarrollo de sistemas administrativos internos para empresas operativas
+              Consultoría en diseño y desarrollo de sistemas administrativos internos para empresas operativas
             </h1>
             <p className="hero-subtitle">
               Ordeno y estructuro la información administrativa de tu empresa para que tengas control, reportes claros y decisiones con datos confiables. Sin software genérico y sin complicaciones innecesarias.
