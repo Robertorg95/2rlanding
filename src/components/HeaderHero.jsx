@@ -12,7 +12,7 @@ const HeaderHero = () => {
               <img className="logo-image" src={logo} alt="2R Develops" />
             </div>
             <h1 className="hero-title">
-              Consultoría en Sistemas y Procesos Operativos
+              Consultoría especializada en diseño e implementación de sistemas administrativos internos.
             </h1>
             <p className="hero-subtitle">
               Ordenamos la operación, la información y los procesos antes de implementar soluciones tecnológicas.

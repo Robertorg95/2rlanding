@@ -11,7 +11,7 @@ const Industries = () => {
           </div>
           <div className="col-lg-6">
             <ul className="feature-list">
-              <li>PyMes</li>
+              <li>PyMES</li>
               <li>Clínicas privadas</li>
               <li>Empresas con varias sucursales</li>
               <li>Negocios que operan por proyectos</li>
