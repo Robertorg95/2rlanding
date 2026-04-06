@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "jsx": "react-jsx",
+    "strict": false,
+    "noEmit": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["lovable/*"]
+    },
+    "types": ["vite/client"]
+  },
+  "include": ["App.tsx", "main.tsx", "lovable/**/*", "src/**/*"]
+}
+
