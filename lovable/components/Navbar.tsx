@@ -6,7 +6,7 @@ import logoFull from "@/assets/2r develops logo25.png";
 
 const navLinks = [
   { label: "Inicio", href: "#hero", route: "/" },
-  { label: "Modulos", href: "#modulos", route: "/" },
+  { label: "Modulos", href: "#modulos", route: "/modulos" },
   { label: "Implementacion", href: "#como-funciona", route: "/" },
   { label: "Inversion", href: "#inversion", route: "/" },
   { label: "Contacto", href: "#contacto", route: "/" },
@@ -19,6 +19,11 @@ const Navbar = () => {
 
   const scrollTo = (link: (typeof navLinks)[0]) => {
     setOpen(false);
+    if (link.route === "/modulos") {
+      navigate("/modulos");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
     if (location.pathname !== "/") {
       navigate("/" + link.href);
       return;
